@@ -23,11 +23,11 @@ public class AssignmentController {
 	public ResponseEntity<Integer> ingest() {
 		try {
 			service.clearData();
+			//ingesting files from resources
 			service.importFile("2018_01_report.csv");
 			service.importFile("2018_02_report.csv");
 			return new ResponseEntity<Integer>(200, HttpStatus.OK);
 		} catch (Exception ex) {
-			ex.printStackTrace();
 			return new ResponseEntity<Integer>(-1, HttpStatus.INTERNAL_SERVER_ERROR);
 		}
 	}
