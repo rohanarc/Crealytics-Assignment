@@ -4,6 +4,7 @@ for Local run:
 mvn package && java -jar target/crealytics-assignments-1.0.0.jar
 
 If you want to run with Docker (in case you dont have mongo instance handy :) ), execute:
+
 docker-compose up
 
 #### Details:
