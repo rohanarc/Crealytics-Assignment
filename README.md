@@ -1,11 +1,12 @@
 #### Build 
 
 for Local run:
-mvn package && java -jar target/crealytics-assignments-1.0.0.jar
+
+$ mvn package && java -jar target/crealytics-assignments-1.0.0.jar
 
 If you want to run with Docker (in case you dont have mongo instance handy :) ), execute:
 
-docker-compose up
+$ docker-compose up
 
 #### Details:
 
@@ -30,10 +31,8 @@ as per dimensions.
 we can use OAUTH and spring security, for security and can have 
 token interceptor to validate token passed in header.
 
-MongoDB provides built-in full-text search capabilities but does not 
-provide advanced indexing and search features.  
-Apache Solr is based on the high performance, full-featured text 
-search engine Lucene. Using Mongo Connector; you can index MongoDB data in Apache Solr.
+MongoDB provides built-in full-text search capabilities but does not provide advanced indexing and search features.  
+Apache Solr is based on the high performance, full-featured text search engine Lucene. Using Mongo Connector; you can index MongoDB data in Apache Solr.
 
 
  
