@@ -2,5 +2,5 @@ server:
     port: 9000
 spring.data.mongodb:
   database: AdvertisingDB # Database name.
-  uri: mongodb://mongo:27017 # Mongo database URI. Cannot be set with host, port and credentials.
+  uri: mongodb://localhost:27017 # Mongo database URI. Cannot be set with host, port and credentials.
   
